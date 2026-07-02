@@ -1,0 +1,3 @@
+# Lean build artifacts (regenerable via `lake exe cache get` + `lake build`).
+# The pinned dependency versions live in lake-manifest.json and lean-toolchain.
+/.lake/

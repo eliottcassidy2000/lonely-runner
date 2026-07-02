@@ -1,0 +1,15 @@
+name = "LonelyRunner"
+version = "0.1.0"
+keywords = ["math", "lonely-runner-conjecture", "lean4", "mathlib"]
+defaultTargets = ["LonelyRunner"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.30.0"
+
+[[lean_lib]]
+name = "LonelyRunner"
